@@ -14,4 +14,8 @@ export class AppComponent {
   }
 
   isAdmin: boolean = true;
+
+  hiddenButton(): void {
+    this.isAdmin = !this.isAdmin;
+  }
 }
