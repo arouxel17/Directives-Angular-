@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '03_Directives';
+  
+  title : string;
+  
+  constructor(){
+    this.title = "Bonjour !";
+  }
+
+  isAdmin: boolean = true;
 }

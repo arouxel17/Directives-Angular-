@@ -1,0 +1,17 @@
+.corps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.admin {
+    color: red;
+}
